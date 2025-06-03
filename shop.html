@@ -1,44 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Rainy Days</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rainy Days">
-    <link rel="stylesheet" href="style.css">
-   <script
+  <head>
+    <title>Rainy Days | home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rainy Days" />
+    <link rel="stylesheet" href="style.css" />
+    <script
       src="https://kit.fontawesome.com/2b52de5af1.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="siteheader">
-        <div class="logo-container">
-            <a href="index.html" aria-label="Home">
-                <img src="./image/RainyDays_Logo.png" alt="Logo">
-            </a>
-        </div>
-        
-        <nav class="main-nav"> 
-             <ul>
-            <li><a href="Shop.html">Shop</a></li>
-            <li><a href="Stories.html">Stories</a></li>
-            <li><a href="About.html">About</a></li>
-             <li> <form action="/search" method="GET" class="search-form">
-                <input type="text" name="query" placeholder="Search..." class="search-input">
-                <button type="submit" class="search-button" aria-label="Search">
-                    <i class="fas fa-search" aria-hidden="true"></i>
-                </button>
-            </form>
-            </li>
-            <li><a href="#Login">Login</a></li>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
+      <div class="logo-container">
+        <a href="index.html" aria-label="Home">
+          <img src="./image/RainyDays_Logo.png" alt="Logo" />
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="nav-left">
+          <li><a href="Shop.html">Shop</a></li>
+          <li><a href="Stories.html">Stories</a></li>
+          <li><a href="About.html">About</a></li>
         </ul>
-    </nav> 
-   
-</header>
-<main>
 
-
-</main>
-</body>
+        <div class="nav-center">
+          <form action="/search" method="GET" class="search-form">
+            <div class="search-wrapper">
+              <input
+                type="text"
+                name="query"
+                placeholder="Search..."
+                class="search-input"
+              />
+              <i class="fa-solid fa-search search-icon" aria-hidden="true"></i>
+            </div>
+          </form>
+        </div>
+        <ul class="nav-right">
+          <li><a href="#Login">Login</a></li>
+          <li><i class="fa-solid fa-cart-shopping"></i></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Shop Men's</h1>
+      <p>
+        Revamp your style with the latest designer trends in men’s clothing or
+        achieve a perfectly curated wardrobe thanks to our line-up of timeless
+        pieces.
+      </p>
+      <div class="content-wrapper">
+        <aside class="filter-box">
+          <div class="filter-header">
+            <h3>Filters</h3>
+            <a href="shop.html" class="clear-filters">clear-filters</a>
+          </div>
+          <h5>Catagories</h5>
+          <div class="filter-section">
+            <label
+              ><input type="checkbox" name="type" value="jackets" />
+              Jackets</label
+            ><br />
+            <label
+              ><input type="checkbox" name="type" value="fleece" />
+              Fleece</label
+            ><br />
+            <label
+              ><input type="checkbox" name="type" value="softshell" />
+              Softshell</label
+            ><br />
+            <label
+              ><input type="checkbox" name="type" value="raincoats" />
+              Raincoats</label
+            ><br />
+            <label
+              ><input type="checkbox" name="type" value="t-shirts" />
+              T-shirts</label
+            ><br />
+            <label
+              ><input type="checkbox" name="type" value="hoodies" />
+              Hoodies</label
+            ><br />
+          </div>
+          <button type="submit" class="filter-btn">filtrer</button>
+        </aside>
+        <section class="product-grid"></section>
+        <!--her kan jeg legge inn produkter -->
+      </div>
+    </main>
+  </body>
+</html>
