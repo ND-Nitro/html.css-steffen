@@ -70,11 +70,6 @@ body {
   padding: 0;
 }
 
-.search-icon-button:hover {
-  color: #e67e22;
-}
-
-
 main {
     text-align: center;
     padding: 4rem 1rem;
