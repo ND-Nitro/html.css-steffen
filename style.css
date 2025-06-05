@@ -40,7 +40,7 @@ body {
 
 .siteheader ul li a:hover,
 .siteheader ul li i:hover {
-  background-color: #887e2873;
+  background-color: white;
 }
 
 .search-wrapper {
@@ -239,6 +239,27 @@ main p {
 /* aboout end*/
 /*shop filterbox*/
 
+.black-stripe {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: left;
+}
+
+.black-stripe h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.black-stripe p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.6;
+  margin: 1 auto;
+  text-align: left;
+}
+
 .content-wrapper {
   display: flex;
   gap: 2px;
@@ -268,18 +289,6 @@ main p {
   margin-bottom: 0.5rem;
 }
 
-.filter.btn {
-  padding: 0.5rem 1rem;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.filter.btn:hover {
-  background-color: #e67e22;
-}
-
 .filter-header {
   display: flex;
   justify-content: space-between;
@@ -293,13 +302,13 @@ main p {
   text-decoration: none;
 }
 
-.clear filter:hover {
+.clear-filter:hover {
   text-decoration: underline;
 }
+
 .filter-box h5 {
   font-size: 1rem;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 1rem;
 }
-/*shop filterbox end*/
