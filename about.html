@@ -1,46 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Rainy Days | about</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rainy Days">
-    <link rel="stylesheet" href="style.css">
-   <script
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rainy Days" />
+    <link rel="stylesheet" href="style.css" />
+    <script
       src="https://kit.fontawesome.com/2b52de5af1.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="siteheader">
-        <div class="logo-container">
-            <a href="index.html" aria-label="Home">
-                <img src="./image/RainyDays_Logo.png" alt="Logo">
-            </a>
-        </div>
-        
-        <nav class="main-nav"> 
-             <ul>
-            <li><a href="Shop.html">Shop</a></li>
-            <li><a href="Stories.html">Stories</a></li>
-            <li><a href="About.html">About</a></li>
-             <li> <form action="/search" method="GET" class="search-form">
-                <input type="text" name="query" placeholder="Search..." class="search-input">
-                <button type="submit" class="search-button" aria-label="Search">
-                    <i class="fas fa-search" aria-hidden="true"></i>
-                </button>
-            </form>
-            </li>
-            <li><a href="#Login">Login</a></li>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
-        </ul>
-    </nav> 
-   
-</header>
-<main>
-     <div class="story-content">    
-    <img src="./image/22e20f28-6eb8-4805-a386-36ed76a0989b.png" alt="Adventure image" class="about-image">
+      <div class="logo-container">
+        <a href="index.html" aria-label="Home">
+          <img src="./image/RainyDays_Logo.png" alt="Logo" />
+        </a>
+      </div>
 
-    <div class="story-text-block">
-</main>
-</body>
+      <nav class="main-nav">
+        <ul class="nav-left">
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="stories.html">Stories</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+
+        <div class="nav-center">
+          <form action="/search" method="GET" class="search-form">
+            <div class="search-wrapper">
+              <input
+                type="text"
+                name="query"
+                placeholder="Search..."
+                class="search-input"
+              />
+              <i class="fa-solid fa-search search-icon" aria-hidden="true"></i>
+            </div>
+          </form>
+        </div>
+        <ul class="nav-right">
+          <li><a href="#Login">Login</a></li>
+          <li><i class="fa-solid fa-cart-shopping"></i></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="story-content">
+        <img
+          src="./image/22e20f28-6eb8-4805-a386-36ed76a0989b.png"
+          alt="Adventure image"
+          class="about-image"
+        />
+
+        <div class="story-text-block">
+          <h1>About Us</h1>
+          <p>
+            RainyDays was founded with a simple goal: to deliver high-quality,
+            dependable outerwear for people who don’t let the weather dictate
+            their plans. We specialize in technical jackets and gear designed to
+            offer maximum protection, comfort, and performance — no matter the
+            conditions. With a focus on innovation, functionality, and
+            sustainability, RainyDays is committed to creating products that not
+            only withstand the elements but also support a responsible
+            relationship with nature. Every product we design is rigorously
+            tested to ensure it meets the highest standards of durability and
+            weather resistance. At RainyDays, we don't just make jackets. We
+            make gear you can rely on — rain or shine. Dependable. Sustainable.
+            Ready for anything.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
