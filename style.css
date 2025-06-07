@@ -424,7 +424,7 @@ main p {
 /*login start */
 /* Login page styling */
 .login-container {
-  max-width: 100px;
+  max-width: 400px;
   margin: 1rem auto;
   padding: 2rem;
   border: 1px solid #ddd;
