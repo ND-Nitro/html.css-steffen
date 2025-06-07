@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rainy Days | home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rainy Days" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2b52de5af1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="siteheader">
+      <div class="logo-container">
+        <a href="index.html" aria-label="Home">
+          <img src="./image/RainyDays_Logo.png" alt="Logo" />
+        </a>
+      </div>
+
+      <!-- thext goes here -->
+      <nav class="main-nav">
+        <ul class="nav-left">
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="stories.html">Stories</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+
+        <div class="nav-center">
+          <form action="/search" method="GET" class="search-form">
+            <div class="search-wrapper">
+              <input
+                type="text"
+                name="query"
+                placeholder="Search..."
+                class="search-input"
+              />
+              <i class="fa-solid fa-search search-icon" aria-hidden="true"></i>
+            </div>
+          </form>
+        </div>
+        <ul class="nav-right">
+          <li><a href="Login.html">Login</a></li>
+          <li><i class="fa-solid fa-cart-shopping"></i></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="logo-container">
+      <h1>Login</h1>
+      <form action="#" method="post" class="login-form">
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit">login</button>
+        <p class="login-link">
+          <a href="#">Forgot Password</a>
+          <a href="#">New Account</a>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
