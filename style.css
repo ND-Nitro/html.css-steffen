@@ -232,7 +232,7 @@ main p {
 
 .about-text {
   font-size: 2rem;
-  line-height: 2;
+  line-height: 1.9;
   margin-bottom: 2rem;
 }
 
@@ -542,6 +542,55 @@ main p {
   color: white;
 }
 /* footer end*/
+/* coming soon page */
+.coming-soon-page {
+  background-color: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.coming-soon-page .container {
+  max-width: 400px;
+}
+
+.coming-soon-page h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #887e28;
+}
+
+.coming-soon-page p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.coming-soon-page a.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #887e28;
+  border-radius: 5px;
+  color: #887e28;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.coming-soon-page a.btn:hover {
+  background-color: #887e28;
+  color: white;
+}
+
+.coming-soon-page .coming-gif {
+  width: 280px;
+  height: auto;
+  margin: 1rem 0;
+}
 
 /* MEDIA QUERIES */
 
