@@ -1,5 +1,4 @@
-/* index */
-
+/* index start*/
 body {
   margin: 0;
   font-family: "inter", sans-serif;
@@ -12,8 +11,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #887e2873;
-  color: white;
+  background-color: #887e28;
+  color: black;
   flex-wrap: nowrap;
 }
 
@@ -41,11 +40,6 @@ body {
 .siteheader ul li a:hover,
 .siteheader ul li i:hover {
   background-color: white;
-}
-
-.search-wrapper {
-  position: relative;
-  width: 300px;
 }
 
 .search-input {
@@ -166,33 +160,10 @@ main p {
 }
 
 .button-container .shop-button:hover {
-  background-color: #887e2873;
+  background-color: #887e28;
 }
-
-@media (max-width: 768px) {
-  .siteheader {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .siteheader ul {
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-top: 1rem;
-  }
-
-  .search-form {
-    margin-top: 1rem;
-    width: 100%;
-  }
-
-  .search-input {
-    width: 100%;
-  }
-}
-/*index stop*/
-
-/*stories start */
+/*index ending*/
+/* stories */
 .story-content {
   display: flex;
   align-items: center;
@@ -221,21 +192,8 @@ main p {
   font-size: 1.4rem;
   line-height: 1.8;
 }
-
-@media (max-width: 768px) {
-  .story-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .story-text-block {
-    max-width: 100%;
-  }
-}
-
-/* story ending/ edit soon */
-
-/* about fix */
+/*story ending*/
+/* about */
 .about-content {
   display: flex;
   align-items: flex-start;
@@ -245,7 +203,7 @@ main p {
   flex-wrap: wrap;
 }
 
-.story-text-block{
+.story-text-block {
   max-width: 600px;
   order: 1;
   align-self: flex-start;
@@ -254,8 +212,8 @@ main p {
 .story-text-block h1 {
   margin-top: 0;
   margin-bottom: 1rem;
-
 }
+
 .about-image {
   order: 2;
   width: 600px;
@@ -274,19 +232,24 @@ main p {
 
 .about-text {
   font-size: 2rem;
-  line-height: 1.8;
+  line-height: 2;
+  margin-bottom: 2rem;
 }
-/* aboout end*/
-/*shop filterbox*/
 
+.about-text p {
+  margin-bottom: 1.5rem;
+}
+/* about end*/
+/* all shops */
 .black-stripe {
+  box-sizing: border-box;
   width: 100%;
   background-color: black;
   color: white;
   padding: 3rem 1rem;
   text-align: left;
 }
-/* need to adjust the  stripe */
+
 .black-stripe h1 {
   font-size: 2.5rem;
   margin-top: 1rem;
@@ -296,7 +259,7 @@ main p {
   font-size: 1.2rem;
   max-width: 600px;
   line-height: 1.6;
-  margin: 1 auto;
+  margin: 1rem 0;
   text-align: left;
 }
 
@@ -305,7 +268,7 @@ main p {
   gap: 2px;
   padding: 2rem;
 }
-/*filter box og system*/
+
 .filter-box {
   width: 220px;
   background-color: white;
@@ -344,7 +307,7 @@ main p {
 
 .clear-filter:hover {
   text-decoration: underline;
-  background-color: #887e2873;
+  background-color: #887e28;
   color: black;
 }
 
@@ -375,11 +338,11 @@ main p {
 }
 
 .filter-link:hover {
-  background-color: #887e2873;
+  background-color: #887e28;
   color: black;
 }
-/* filter end*/
-/*product grid og layut*/
+/* all shops end*/
+/* product grid and card */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -430,11 +393,10 @@ main p {
 }
 
 .product-card button:hover {
-  background-color: #887e2873;
+  background-color: #887e28;
 }
-/*prduct end*/
-/*login start */
-/* Login page styling */
+/* product grid and card end/*
+/* login start */
 .login-container {
   max-width: 400px;
   margin: 1rem auto;
@@ -476,7 +438,7 @@ main p {
 }
 
 .login-form button:hover {
-  background-color: #887e2873;
+  background-color: #887e28;
 }
 
 .login-links {
@@ -484,15 +446,6 @@ main p {
   font-size: 0.9rem;
 }
 
-.login-links button {
-  padding: 0.75rem;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-}
 .login-links a {
   color: #007bff;
   text-decoration: none;
@@ -500,4 +453,202 @@ main p {
 
 .login-links a:hover {
   text-decoration: underline;
+}
+/* login end*/
+/* footer start */
+.site-footer {
+  background-color: #887e28;
+  color: black;
+  padding: 3rem 1rem;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  min-width: 220px;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-logo {
+  height: 80px;
+  width: auto;
+}
+
+.footer-tagline {
+  font-family: "public sans", serif;
+  font-style: italic;
+  color: black;
+  max-width: 250px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-links ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: white;
+}
+
+.footer-contact p {
+  margin: 0.3rem 0;
+}
+
+.footer-socials {
+  margin-top: 1rem;
+}
+
+.footer-socials a {
+  color: black;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+  color: white;
+}
+/* footer end*/
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .siteheader {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .siteheader ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 1rem 0;
+    padding: 0;
+  }
+
+  .search-form {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .story-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .story-text-block {
+    max-width: 100%;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text-block {
+    max-width: 100%;
+  }
+
+  .about-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .filter-box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    flex-basis: 100%;
+  }
+
+  .footer-logo-section {
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 0.9rem;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  .story-text,
+  .about-text {
+    font-size: 1.1rem;
+  }
+
+  .story-image,
+  .about-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-logo {
+    height: 60px;
+  }
 }
