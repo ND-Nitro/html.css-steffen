@@ -1,3 +1,24 @@
-this is my first working web page, its designed in figma and then build it vs code with html and css ( no java yet )
+# Rainy days 
 
-i have worked hard and long on this so slaughter it with free will :D
+Rainy days is one of my first project buildt with HTML&CSS. 
+
+## purpose 
+ Create a Ecommers page where people could buy  cloths. 
+
+
+ ## Technologies Used
+
+ - HTML
+ - CSS
+
+## pages 
+
+for  this project i have these pages : 
+
+-**index.html** = landing page and front page at the same time 
+-**Stories.html** =  stories about the store and facts. 
+-**Shop-pages** =  5 diffrent pages  where you can buy diffrent clothings.  
+
+## Live demmo
+
+https://nd-nitro.github.io/html.css-steffen/
