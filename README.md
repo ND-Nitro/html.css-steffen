@@ -19,6 +19,6 @@ for  this project i have these pages :
 -**Stories.html** =  stories about the store and facts. 
 -**Shop-pages** =  5 diffrent pages  where you can buy diffrent clothings.  
 
-## Live demmo
+## Live demo
 
 https://nd-nitro.github.io/html.css-steffen/
